@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFive } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title=""
           des="My Projects"
         />
       </div>
@@ -28,10 +28,14 @@ const Projects = () => {
           src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Express Courier and Logistic Services Website"
+          des=" I developed, maintained, and handled server operations for an Express Courier and Logistic Services system. This system efficiently manages parcel logistics through user-friendly interfaces for customers, couriers, and administrators. Key features include automated order processing, real-time shipment tracking. My role encompasses end-to-end involvement in system development, maintenance, and server management, highlighting expertise in system architecture, API integration and operational excellence"
           src={projectThree}
+        />
+         <ProjectsCard
+          title="Online Esubmission System"
+          des="My pivotal role in the development and continuous management of the eSubmission system highlights a well-rounded skill set covering software architecture, API integration, system maintenance, server administration, reporting implementation and payment instegration"
+          src={projectFive}
         />
       </div>
     </section>
